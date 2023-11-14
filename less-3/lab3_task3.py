@@ -5,7 +5,7 @@ Vox = 1
 Yo = 0
 Voy = 0
 t = np.arange(0, 5, 0.1)
-from lab3_1 import gravity_acceleration as g
+from lab3_task1 import gravity_acceleration as g
 
 x = Xo + (Vox * t)
 y = Yo + Voy * t -(g * t**2 / 2)
