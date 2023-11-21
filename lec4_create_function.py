@@ -3,4 +3,4 @@ def mult_func(a):
     return  x
 
 def print_func(a):
-    print(f' {a}')
+    print(f' I am cool {a}')
