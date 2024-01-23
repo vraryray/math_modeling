@@ -4,7 +4,7 @@ import numpy as np
 
 
 def circle_move(R, angle_vel, time):
-    alpha = angle_vel * np.pi / 180 * time
+    alpha = angle_vel * 2 * np.pi / 180 * time
     x = R * np.cos(alpha)
     y = R * np.sin(alpha)
     return x, y
