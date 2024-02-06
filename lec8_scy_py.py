@@ -19,4 +19,4 @@ plt.ylabel('Функция распада')
 plt.title('Радиоактивный распад')
 plt.legend()
 
-plt.savefig('lalalala.png')
+plt.savefig('scy_py.png')
