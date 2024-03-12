@@ -88,11 +88,23 @@ def solve_func(i, key):
         y1 = sol[i, 2]
         x2 = sol[i, 4]
         y2 = sol[i, 6]
+        x3 = sol[i, 8]
+        y3 = sol[i, 10]
+        x4 = sol[i, 12]
+        y4 = sol[i, 14]
+        x5 = sol[i, 16]
+        y5 = sol[i, 18]
     else:
         x1 = sol[:i, 0]
         y1 = sol[:i, 2]
         x2 = sol[:i, 4]
         y2 = sol[:i, 6]
+        x3 = sol[:i, 8]
+        y3 = sol[:i, 10]
+        x4 = sol[:i, 12]
+        y4 = sol[:i, 14]
+        x5 = sol[:i, 16]
+        y5 = sol[:i, 18]
     return ((x1, y1), (x2, y2))
 
  
