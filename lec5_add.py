@@ -123,13 +123,13 @@ balls = []
 balls_lines = []
 
 for i in range(3):
-    balls.append(plt.plot([], [], 'o', color = 'r'))
-    balls_lines.append(plt.plot([], [], '-', color = 'r'))
-
+    balls.append(plt.plot([], [], 'o', color='r'))
+    balls_lines.append(plt.plot([], [], '-', color='r'))
+ 
 def animate(i):
     for j in range(3):
         balls[j][0].set_data(sol[i, 4*j], sol[i, 4*j+2])
-        balls_lines[j][0].set_data(sol[i:, 4*j], sol[:i, 4*j+2])
+        balls_lines[j][0].set_data(sol[:i, 4*j], sol[:i, 4*j+2])
 
 ani = FuncAnimation(fig, animate, frames=frames, interval=30)
 
