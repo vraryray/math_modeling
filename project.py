@@ -27,4 +27,4 @@ ani = ArtistAnimation(
     repeat=True
 )
 
-plt.show()
+ani.save('projject.gif')
